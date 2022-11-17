@@ -6,15 +6,13 @@ import Carousel from "./layouts/HomePage/components/Carousel";
 import Heros from "./layouts/HomePage/components/Heros";
 import LibraryServices from "./layouts/HomePage/components/LibraryServices";
 import Footer from "./layouts/Footer";
+import {HomePage} from "./layouts/HomePage/HomePage";
 
 function App() {
     return (
         <>
             <Navbar/>
-            <ExploreTopBooks/>
-            <Carousel/>
-            <Heros/>
-            <LibraryServices/>
+            <HomePage/>
             <Footer/>
         </>
     );
