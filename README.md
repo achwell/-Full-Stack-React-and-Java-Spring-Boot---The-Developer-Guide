@@ -3,12 +3,12 @@
 
 ## Angular Installation Guides
 
-* [Linux](install-react-tools/linux/install-linux.md)
+* [Linux](IKKE_SJEKK_INN/install-react-tools/linux/install-linux.md)
 
-* [Mac](install-react-tools/mac/install-mac.md)
+* [Mac](IKKE_SJEKK_INN/install-react-tools/mac/install-mac.md)
 
-* [Microsoft Windows](install-react-tools/ms-windows/install-ms-windows.md)
+* [Microsoft Windows](IKKE_SJEKK_INN/install-react-tools/ms-windows/install-ms-windows.md)
 
 ## Source Code
 
-* [Source code](source-code)
+* [Source code](IKKE_SJEKK_INN/source-code)
