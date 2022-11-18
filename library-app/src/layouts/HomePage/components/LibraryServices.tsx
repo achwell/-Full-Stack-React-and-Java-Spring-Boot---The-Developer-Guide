@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 const LibraryServices = () => {
 
     return(
@@ -12,9 +14,9 @@ const LibraryServices = () => {
                         send our library admin's a personal message!
                     </p>
                     <div className='d-grid gap-2 justify-content-md-start mb-4 mb-lg-3'>
-                        <a href='/messages' type='button' className='btn main-color btn-lg px-4 me-md-2 fw-bold text-white'>
+                        <Link to='/messages' type='button' className='btn main-color btn-lg px-4 me-md-2 fw-bold text-white'>
                             Library Services
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className='col-lg-4 offset-lg-1 shadow-lg lost-image'></div>

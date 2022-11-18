@@ -1,4 +1,4 @@
-import React from 'react';
+import {Navigate, Route, Routes} from "react-router-dom";
 import Navbar from "./layouts/Navbar";
 import Footer from "./layouts/Footer";
 import {HomePage} from "./layouts/HomePage/HomePage";
@@ -8,12 +8,17 @@ import './App.scss';
 
 function App() {
     return (
-        <>
+        <div className='d-flex flex-column min-vh-100'>
             <Navbar/>
-            <SearchBooksPage/>
-            {/*<HomePage/>*/}
+            <div className="flex-grow-1">
+                <Routes>
+                    <Route path="/search" element={<SearchBooksPage/>}/>
+                    <Route path="/home" element={<HomePage/>}/>
+                    <Route path="/" element={<Navigate replace to="/home"/>}></Route>
+                </Routes>
+            </div>
             <Footer/>
-        </>
+        </div>
     );
 }
 
