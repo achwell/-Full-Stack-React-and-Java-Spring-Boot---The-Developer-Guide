@@ -1,7 +1,8 @@
 import {Navigate, Route, Routes} from "react-router-dom";
 import Navbar from "./layouts/Navbar";
 import Footer from "./layouts/Footer";
-import {HomePage} from "./layouts/HomePage/HomePage";
+import BookCheckoutPage from "./layouts/BookCheckoutPage/BookCheckoutPage";
+import HomePage from "./layouts/HomePage/HomePage";
 import SearchBooksPage from "./layouts/SearchBooksPage/SearchBooksPage";
 
 import './App.scss';
@@ -14,6 +15,7 @@ function App() {
                 <Routes>
                     <Route path="/search" element={<SearchBooksPage/>}/>
                     <Route path="/home" element={<HomePage/>}/>
+                    <Route path='/checkout/:bookId' element={<BookCheckoutPage/>}/>
                     <Route path="/" element={<Navigate replace to="/home"/>}></Route>
                 </Routes>
             </div>

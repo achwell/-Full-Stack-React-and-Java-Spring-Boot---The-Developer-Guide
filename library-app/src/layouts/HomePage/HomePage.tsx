@@ -3,7 +3,7 @@ import Carousel from "./components/Carousel";
 import Heros from "./components/Heros";
 import LibraryServices from "./components/LibraryServices";
 
-export const HomePage = () => {
+const HomePage = () => {
     return (
         <>
             <ExploreTopBooks/>
@@ -13,3 +13,4 @@ export const HomePage = () => {
         </>
     );
 }
+export default HomePage
